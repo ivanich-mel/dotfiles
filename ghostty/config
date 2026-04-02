@@ -1,0 +1,4 @@
+font-family = "MesloLGS NF"
+font-size = 17
+term = xterm-256color
+background-opacity = 0.9
