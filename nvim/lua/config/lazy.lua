@@ -19,7 +19,7 @@ vim.opt.rtp:prepend(lazypath)
 
 local install_missing = vim.env.DOTFILES_SKIP_PLUGIN_INSTALL ~= '1'
 
-require('lazy').setup({
+require('lazy').setup {
   spec = {
     { import = 'plugins' },
   },
@@ -42,4 +42,4 @@ require('lazy').setup({
       lazy = '💤 ',
     },
   },
-})
+}
